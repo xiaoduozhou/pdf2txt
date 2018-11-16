@@ -55,7 +55,7 @@ def PDFreader(pdfPATH,TXTname = ""):
             if hasattr(out, "get_text"):
                 str = out.get_text()
                 list.append(str)
-                print(str)
+                #print(str)
     TXTstr = "\n".join(list)
     if TXTname == "":
         TXTname = pdfPATH.replace(".pdf",".txt")
