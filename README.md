@@ -10,7 +10,8 @@
 
 
 **使用方法**：   
-           ' python pdf2txt  文件名.pdf'
-
-           ' python pdf2txt  文件名.pdf  文件名.txt'
+       
+            python pdf2txt  文件名.pdf  文件名.txt  
+            
+            python pdf2txt  文件名.pdf
 
